@@ -6,34 +6,19 @@
 [![Try RetroVite](https://img.shields.io/badge/✨_Try-RetroVite-FF4081?style=flat-square&labelColor=590084)](https://invitez.github.io/inv_01/)
 [![First Project](https://img.shields.io/badge/First_Project-🎮-4169E1?style=flat-square&labelColor=1E90FF)](https://github.com/pixciez/inv_01)
 
+## About ✨
 A vanilla JavaScript project built with custom CSS animations and DOM manipulation. Zero frameworks, pure code magic! ✨
 
-## Technical Stack 🛠️
-- **Frontend**: Pure JavaScript & CSS
-- **Animations**: CSS keyframes + requestAnimationFrame
-- **Audio**: Web Audio API + AudioContext
-- **Layout**: CSS Grid + Flexbox
-- **Build Size**: < 100KB gzipped
-- **Dependencies**: None (Vanilla JS)
-
-## Browser Support 🌐
-| Browser | Versions    | Notes |
-|---------|------------|-------|
-| Chrome  | 121, 122   | Full support, best performance |
-| Firefox | 123, 124   | Full support |
-| Safari  | 17.3, 17.4 | Audio API limited |
-| Edge    | 121, 122   | Full support |
-
-## Typography 🔤
-[Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) | [VT323](https://fonts.google.com/specimen/VT323)
-
-## Core Features 🚀
+### Core Features 🚀
 - Pixel-perfect UI with sprite animation system
 - Event-driven architecture + custom hooks
 - Web Audio API for retro sound effects
 - Responsive flexbox/grid layouts
 - Optimized asset loading (<100KB)
 - Framework-free vanilla implementation
+
+## Typography 🔤
+[Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) | [VT323](https://fonts.google.com/specimen/VT323)
 
 ## Project Structure 📂
 ```bash
@@ -74,6 +59,22 @@ cd inv_01
    - Upload to your hosting service
    - Or use GitHub Pages for free hosting
 
+## Technical Details 🛠️
+- **Frontend**: Pure JavaScript & CSS
+- **Animations**: CSS keyframes + requestAnimationFrame
+- **Audio**: Web Audio API + AudioContext
+- **Layout**: CSS Grid + Flexbox
+- **Build Size**: < 100KB gzipped
+- **Dependencies**: None (Vanilla JS)
+
+## Browser Support 🌐
+| Browser | Versions    | Notes |
+|---------|------------|-------|
+| Chrome  | 121, 122   | Full support, best performance |
+| Firefox | 123, 124   | Full support |
+| Safari  | 17.3, 17.4 | Audio API limited |
+| Edge    | 121, 122   | Full support |
+
 ## Development 💻
 ```bash
 # To modify styles:
@@ -92,19 +93,5 @@ cd inv_01
 ## License 📄
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-<div align="center">
-
 ---
-
-### 🌟 RetroVite | Making Virtual Meetups Magical ✨
-*Crafted with pixel-perfect precision and retro love*
-
-[🎮 Try it](https://invitez.github.io/inv_01/) • [💝 Contribute](https://github.com/pixciez/inv_01) • [🌟 Star](https://github.com/pixciez/inv_01)
-
-```ascii
-  ┌───────────────────────┐
-  │    Made with 💖 by    │
-  │       pixciez         │
-  └───────────────────────┘
-```
-</div>
+*Crafted with 👾 vanilla JavaScript & 💖 pure CSS*

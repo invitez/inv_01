@@ -1,16 +1,24 @@
 # inv_01: 🎟️ RetroVite
-
 > A playful pixel-art invitation maker for virtual meetups, powered by nostalgia and friendship! ✨
 
 [![Live Demo](https://img.shields.io/badge/▶-Live_Demo-brightgreen)](https://pixciez.github.io/inv_01)
 [![Made with Love](https://img.shields.io/badge/Made_with-♥-ff69b4)](https://github.com/pixciez)
 
 ## ✨ About
-
 RetroVite is my first website project, crafted to transform simple Google Meet invites into delightful retro-themed experiences. Complete with animated elements, floating effects, and pixel-perfect nostalgia!
 
-## 📁 Project Structure
+## 🎯 Font Requirements
+```bash
+# Google Fonts Used
+├── 🔤 Press Start 2P    # Main font for headings & focus text
+└── 🔤 VT323            # Secondary font for body content
+```
+To include these fonts in your project:
+```html
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+```
 
+## 📁 Project Structure
 ```bash
 inv_01/
 ├── 📄 README.md          # You are here!
@@ -33,14 +41,30 @@ inv_01/
 └── 🎮 pop.js            # Popup logic
 ```
 
-## ⚡ Quick Setup
+## 🔧 Technical Details
+```bash
+# Core Technologies
+├── 📱 Responsive Design
+│   ├── Mobile-first approach
+│   └── Breakpoints: 320px, 768px, 1024px
+│
+├── 🎨 CSS Features
+│   ├── CSS Grid & Flexbox
+│   ├── Custom Properties
+│   └── Keyframe Animations
+│
+└── 🔄 JavaScript
+    ├── ES6+ Features
+    ├── Event Handling
+    └── DOM Manipulation
+```
 
+## ⚡ Quick Setup
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/pixciez/inv_01.git
 cd inv_01
 ```
-
 ### 2️⃣ Personalize Your Invite
 - Open `index.html`
 - Replace the default Google Meet link with yours
@@ -51,15 +75,12 @@ cd inv_01
 ### 4️⃣ Share & Surprise Your Friend! 🎉
 
 ## 🛠️ Tech Stack
-
 - 💫 Vanilla JavaScript + CSS (No frameworks!)
 - 🌈 Smooth animations & lightweight design
 - 🌐 Cross-browser support (Chrome, Firefox, Safari, Edge)
 
 ## 🎨 Customization
-
 Want to make it your own? Here's how:
-
 ```bash
 # 1. Modify the design
 - Edit popup styling in pop.css
@@ -73,7 +94,6 @@ git push origin main
 ```
 
 ## 🌟 Try It Out
-
 [Visit the demo](https://pixciez.github.io/inv_01) to see RetroVite in action!
 
 ---

@@ -1,23 +1,17 @@
 # inv_01: 🎟️ RetroVite
-https://invitez.github.io/inv_01/
-# 🎮 RetroVite – A Pixel-Perfect Invitation!  
+# RetroVite – The Nostalgic Invite  
 
-🚀 **Try It Out**  
-👉 [Live Demo](https://invitez.github.io/inv_01/)  
+A **fun & stylish** invite webpage designed to surprise your friends with a **Google Meet hangout**. Built with **retro aesthetics, smooth animations, and zero dependencies**!  
 
----  
-
-## ✨ About  
-
-RetroVite is a playful, pixel-art invitation designed for fun virtual meetups.  
-It’s a personal project, my very first website, built to invite a friend for a casual **Google Meet hangout**—but with style!  
-
-Inspired by **classic retro aesthetics**, it features animated elements, floating effects, and a nostalgic vibe to make every invite special.  
+📌 **Live Demo:** [RetroVite](https://invitez.github.io/inv_01/)  
 
 ---
 
+## 📂 Project Structure  
+
+```
 📦 RetroVite  
- ┣ 📂 assets/                # Media & graphics  
+ ┣ 📂 assets/           # Media & graphics  
  ┃ ┣ 📄 bg.png  
  ┃ ┣ 📄 clouds.png  
  ┃ ┣ 📄 cat.png  
@@ -26,41 +20,63 @@ Inspired by **classic retro aesthetics**, it features animated elements, floatin
  ┃ ┣ 📄 meow.png  
  ┃ ┣ 📄 shroom.gif  
  ┃ ┗ 📄 star.gif  
- ┣ 📄 index.html              # Main entry point  
- ┣ 📄 styles.css              # Core styling  
- ┣ 📄 script.js               # Main functionality  
- ┣ 📄 pop.html                # Popup structure  
- ┣ 📄 pop.css                 # Popup styling  
- ┣ 📄 pop.js                  # Popup logic  
- ┗ 📄 README.md               # Project documentation  
-
----  
-
-## 🎨 Features  
-
-- 🎮 **Retro pixel aesthetics** for a unique, nostalgic feel  
-- 🎁 **Popup invitation system** with a fun surprise  
-- 🏞️ **Floating & animated elements** to enhance engagement  
-- 📱 **Fully responsive** – works smoothly on both desktop & mobile  
+ ┣ 📄 index.html        # Main page  
+ ┣ 📄 styles.css        # Core styling  
+ ┣ 📄 script.js         # Main functionality  
+ ┣ 📄 pop.html          # Popup structure  
+ ┣ 📄 pop.css           # Popup styling  
+ ┣ 📄 pop.js            # Popup logic  
+ ┗ 📄 README.md         # Documentation  
+```
 
 ---
 
-## 📲 Compatibility  
+## ⚡ Setup in 30 Seconds  
 
-✅ **Windows, macOS, Linux:** Works on all modern browsers  
-✅ **Android & iOS:** Fully responsive on mobile  
+1️⃣ **Clone the repo:**  
+```sh
+git clone https://github.com/pixciez/inv_01.git
+```
 
----  
+2️⃣ **Personalize your Meet invite**  
+- Open `index.html`  
+- Replace the default Meet link with yours  
 
-## 🔗 Resources Used  
+3️⃣ **Deploy your invite**  
+- Use **GitHub Pages** or any static hosting  
 
-- **Fonts:**  
-  - [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)  
-  - [VT323](https://fonts.google.com/specimen/VT323)  
-- **Icons & Graphics:** Custom pixel assets  
-- **Hosting:** [GitHub Pages](https://invitez.github.io/inv_01/)  
+4️⃣ **Share & surprise your friend!** 🎉  
 
----  
+---
 
-💻 *Built with nostalgia and powered by friendship.*  
-👾 Created by **[@pixciez](https://github.com/pixciez)**  
+## 🛠 Tech Specs  
+
+✔️ Works on all **modern browsers** (Chrome, Firefox, Safari, Edge)  
+✔️ **Vanilla JS + CSS animations** – No frameworks needed  
+✔️ **Zero external dependencies** – Pure HTML, CSS, and JS  
+
+---
+
+## 🎨 Customization  
+
+Want to **personalize** your invite?  
+- Modify the **popup design** in `pop.css`  
+- Change animations in `styles.css`  
+- Replace images in `/assets`  
+
+🔧 After changes, commit & push:  
+```sh
+git add .
+git commit -m "Personalized invite"
+git push origin main
+```
+
+---
+
+## ✨ Try It Out  
+
+Visit the [**demo**](https://invitez.github.io/inv_01/) to see it in action!  
+
+*Built with nostalgia and powered by friendship.*  
+
+---

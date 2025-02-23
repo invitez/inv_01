@@ -1,5 +1,5 @@
 # inv_01: 🎟️ RetroVite
-# RetroVite – The Nostalgic Invite  
+RetroVite – The Nostalgic Invite  
 
 A **fun & stylish** invite webpage designed to surprise your friends with a **Google Meet hangout**. Built with **retro aesthetics, smooth animations, and zero dependencies**!  
 

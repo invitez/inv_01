@@ -2,20 +2,21 @@
 > A pixel-perfect invitation that turns casual meetups into retro adventures!
 <p align="center">
     <a href="https://github.com/pixciez">
-        <img src="https://img.shields.io/badge/First_Project-🎮-4169E1?style=for-the-badge&labelColor=1E90FF&logo=github&logoColor=white" style="margin-right: 10px;">
-    </a>  <span>&nbsp;&nbsp;&nbsp;</span>
-    <a href="https://invitez.github.io/inv_01/">
-        <img src="https://img.shields.io/badge/Try_RetroVite-FF4081?style=for-the-badge&labelColor=590084&logo=gamepad&logoColor=white" style="margin-right: 10px;">
-    </a>  <span>&nbsp;&nbsp;&nbsp;</span>
+        <img src="https://img.shields.io/badge/Made_with-♥-FF1493?style=for-the-badge&labelColor=FF69B4">
+    </a>
+    <span>&nbsp;&nbsp;&nbsp;</span>
     <a href="https://opensource.org/licenses/MIT">
-        <img src="https://img.shields.io/badge/License-MIT-00CC00?style=for-the-badge&labelColor=222&logo=open-source-initiative&logoColor=white" style="margin-right: 10px;">
-    </a>  <span>&nbsp;&nbsp;&nbsp;</span>
-    <a href="https://github.com/pixciez">
-        <img src="https://img.shields.io/badge/Made_with-♥-FF1493?style=for-the-badge&labelColor=FF69B4&logo=heart&logoColor=white">
-    </a> 
+        <img src="https://img.shields.io/badge/License-MIT-00CC00?style=for-the-badge&labelColor=222">
+    </a>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <a href="https://invitez.github.io/inv_01/">
+        <img src="https://img.shields.io/badge/Try_RetroVite-FF4081?style=for-the-badge&labelColor=590084">
+    </a>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <a href="https://github.com/pixciez/inv_01">
+        <img src="https://img.shields.io/badge/First_Project-🎮-4169E1?style=for-the-badge&labelColor=1E90FF">
+    </a>
 </p>
-
-
 RetroVite is my first website project, crafted to transform simple Google Meet invites into delightful retro-themed experiences.A vanilla JavaScript project built with custom CSS animations and DOM manipulation. Zero frameworks, pure code magic! ✨
 
 ## Technical Stack 🛠️
@@ -110,4 +111,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 *Crafted with pixie dust* ✨
 
-# ~🌻
+# *~🌻*

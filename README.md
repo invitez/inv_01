@@ -11,7 +11,6 @@ RetroVite is my first website project, crafted to transform simple Google Meet i
 ## Technical Stack 🛠️
 - **Frontend**: Pure JavaScript & CSS
 - **Animations**: CSS keyframes + requestAnimationFrame
-- **Audio**: Web Audio API
 - **Layout**: CSS Grid + Flexbox
 - **Build Size**: < 100KB gzipped
 - **Stack**: Framework-free

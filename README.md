@@ -1,20 +1,23 @@
-# RetroVite 🎟️ 
+# inv_01:  RetroVite 🎟️ 
 > A pixel-perfect invitation that turns casual meetups into retro adventures!
 
-[![Made with Love](https://img.shields.io/badge/Made_with-♥-FF1493?style=flat-square&labelColor=FF69B4&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDIxLjM1bC0xLjQ1LTEuMzJDNS40IDE1LjM2IDIgMTIuMjggMiA4LjUgMiA1LjQyIDQuNDIgMyA3LjUgM2MxLjc0IDAgMy40MS44MSA0LjUgMi4wOUMxMy4wOSAzLjgxIDE0Ljc2IDMgMTYuNSAzIDE5LjU4IDMgMjIgNS40MiAyMiA4LjVjMCAzLjc4LTMuNCA2Ljg2LTguNTUgMTEuNTRMMTIgMjEuMzV6Ii8+PC9zdmc+)](https://github.com/pixciez)
-[![MIT License](https://img.shields.io/badge/📜_License-MIT-00CC00?style=flat-square&labelColor=222&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMgNnYxMmgxOFY2SDN6bTE1IDEwSDZ2LThoMTJ2OHoiLz48L3N2Zz4=)](https://opensource.org/licenses/MIT)
-[![Try RetroVite](https://img.shields.io/badge/✨_Try-RetroVite-FF4081?style=flat-square&labelColor=590084)](https://invitez.github.io/inv_01/)
-[![First Project](https://img.shields.io/badge/First_Project-🎮-4169E1?style=flat-square&labelColor=1E90FF)](https://github.com/pixciez/inv_01)
+[![Made with Love](https://img.shields.io/badge/Made_with-♥-FF1493?style=for-the-badge&labelColor=FF69B4)](https://github.com/pixciez)
+[![MIT License](https://img.shields.io/badge/License-MIT-00CC00?style=for-the-badge&labelColor=222)](https://opensource.org/licenses/MIT)
+[![Try RetroVite](https://img.shields.io/badge/Try-RetroVite-FF4081?style=for-the-badge&labelColor=590084)](https://invitez.github.io/inv_01/)
+[![First Project](https://img.shields.io/badge/First_Project-🎮-4169E1?style=for-the-badge&labelColor=1E90FF)](https://github.com/pixciez/inv_01)
 
-## About ✨
-A vanilla JavaScript project built with custom CSS animations and DOM manipulation. Zero frameworks, pure code magic! ✨
+RetroVite is my first website project, crafted to transform simple Google Meet invites into delightful retro-themed experiences.A vanilla JavaScript project built with custom CSS animations and DOM manipulation. Zero frameworks, pure code magic! ✨
 
-### Core Features 🚀
-- Pixel-perfect UI with sprite animation system
-- Event-driven architecture + custom hooks
-- Web Audio API for retro sound effects
-- Responsive flexbox/grid layouts
-- Optimized asset loading (<100KB)
+## Technical Stack 🛠️
+- **Frontend**: Pure JavaScript & CSS
+- **Animations**: CSS keyframes + requestAnimationFrame
+- **Audio**: Web Audio API
+- **Layout**: CSS Grid + Flexbox
+- **Build Size**: < 100KB gzipped
+- **Stack**: Framework-free
+
+
+</div>
 - Framework-free vanilla implementation
 
 ## Typography 🔤
@@ -94,4 +97,8 @@ cd inv_01
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
-*Crafted with 👾 vanilla JavaScript & 💖 pure CSS*
+
+*Crafted with pixie dust* ✨
+
+---
+~🌻

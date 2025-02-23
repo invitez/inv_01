@@ -2,8 +2,8 @@
 > A pixel-perfect invitation that turns casual meetups into retro adventures!
 
 [![First Project](https://img.shields.io/badge/First_Project-🎮-4169E1?style=for-the-badge&labelColor=1E90FF)](https://github.com/pixciez/inv_01)
-[![Try RetroVite](https://img.shields.io/badge/Try-RetroVite-FF4081?style=for-the-badge&labelColor=590084)](https://invitez.github.io/inv_01/)
 [![Made with Love](https://img.shields.io/badge/Made_with-♥-FF1493?style=for-the-badge&labelColor=FF69B4)](https://github.com/pixciez)
+[![Try RetroVite](https://img.shields.io/badge/Try-RetroVite-FF4081?style=for-the-badge&labelColor=590084)](https://invitez.github.io/inv_01/)
 [![MIT License](https://img.shields.io/badge/License-MIT-00CC00?style=for-the-badge&labelColor=222)](https://opensource.org/licenses/MIT)
 
 RetroVite is my first website project, crafted to transform simple Google Meet invites into delightful retro-themed experiences.A vanilla JavaScript project built with custom CSS animations and DOM manipulation. Zero frameworks, pure code magic! ✨

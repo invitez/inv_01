@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+    background: url('assets/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    transition: background-color 1s, background-image 1s;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.clouds {
+    background: url('assets/clouds.png') repeat-x;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    animation: moveClouds 20s linear infinite;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    transition: opacity 1s;
+}
+
+h1, p, .buttons {
+    text-shadow: 3px 3px 0px black;
+}
+
+.copyright {
+    margin-bottom: 20px;
+    color: rgb(242, 195, 102);
+    font-size: 1.7em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.player-button {
+    padding: 20px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'Press Start 2P', cursive;
+    width: 180px;
+}
+
+.player-button:hover {
+    background-color: #ffff00;
+    transform: scale(1.1);
+    color: #ff0000;
+}
+
+.sad-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Press Start 2P', cursive;
+    display: none;
+    z-index: 10;
+    text-shadow: 3px 3px 0px black;
+}
+
+.shroom-gif {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.sad-cat-image {
+    width: 200px;
+    height: auto;
+}
+
+.reconsider-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 0.8em;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.reconsider-button:hover {
+    background-color: #ffff00;
+    transform: scale(1.1);
+    color: #ff0000;
+}
+
+/* When the button has the 'clicked' class, disable hover effects */
+.reconsider-button.clicked:hover {
+    background-color: #ff0000 !important;
+    transform: none !important;
+    color: white !important;
+}
+
+.buffer-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+}
+
+.buffer-container {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 3px 3px 0px black;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buffer-spinner {
+    width: 150px;
+    height: 150px;
+    background: url('assets/donut.gif') no-repeat center center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+/* Dialogue Box with Full Translucent Black Screen */
+.dialogue-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+/* Dialogue Box */
+.dialogue-box {
+    background: rgba(0, 0, 0, 0.95);
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    text-shadow: 3px 3px 0px black;
+    text-align: center;
+    white-space: pre-line;
+    line-height: 1.7;
+    width: 85%;
+    max-width: 450px;
+    min-height: 250px;
+    display: none;
+    box-shadow: 4px 4px 10px rgba(107, 10, 10, 0.3);
+}
+
+#typing-text {
+    margin: 0;
+    padding: 0;
+}
+
+/* Typing Effect */
+.cursor {
+    display: inline-block;
+    width: 4px;
+    height: 1em;
+    background-color: white;
+    animation: blink 0.8s infinite alternate;
+    vertical-align: middle;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes moveClouds {
+    from { background-position: 0 0; }
+    to { background-position: -100% 0; }
+}
+
+/* Message Container */
+.message-container {
+    display: none;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10000;
+}
+
+.message {
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: #f0f8ff;
+    font-weight: bold;
+    text-shadow: 
+      0 0 8px rgba(255, 105, 180, 1),
+      0 0 15px rgba(255, 105, 180, 1),
+      0 0 20px rgba(138, 43, 226, 1),
+      0 0 25px rgb(252, 3, 32);
+    animation: color-change 5s infinite alternate;
+}
+
+.join-button {
+    padding: 20px 40px;
+    background-color: #00008b;
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    margin-top: 30px;
+    text-transform: uppercase;
+    box-shadow: 
+      0 0 10px rgba(138, 43, 226, 1),
+      0 0 18px rgba(138, 43, 226, 1),
+      0 0 25px rgba(255, 105, 180, 1),
+      0 0 45px rgb(244, 7, 26);
+    text-decoration: none;
+    margin: 0 auto;
+    width: auto;
+}
+
+.join-button:hover {
+    transform: scale(1.1);
+    background-color: #00ffff;
+    color: #000000;
+    box-shadow: 
+      0 0 18px rgba(0, 255, 255, 1),
+      0 0 25px rgba(0, 255, 255, 1),
+      0 0 35px rgba(255, 255, 255, 1);
+}
+
+@keyframes color-change {
+    0% {
+      color: #c6d2ef;
+    }
+    25% {
+      color: #ffb6c1;
+    }
+    50% {
+      color: #dda0c4;
+    }
+    75% {
+      color: #e9a38f;
+    }
+    100% {
+      color: #d391e3;
+    }
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 768px) {
+    .content {
+        padding: 0 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    p, .dialogue-box, .message {
+        font-size: 16px;
+    }
+    .player-button {
+        width: 140px;
+        font-size: 1em;
+    }
+    .sad-message {
+        font-size: 1.2em;
+    }
+    .dialogue-box {
+        width: 95%;
+        max-width: 320px;
+    }
+    .message {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .join-button {
+        font-size: 20px;
+        padding: 15px 30px;
+        margin-top: 20px;
+    }
+}

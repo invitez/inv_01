@@ -16,24 +16,23 @@ Inspired by **classic retro aesthetics**, it features animated elements, floatin
 
 ---
 
-## 📂 Project Structure  
-
-1. **README.md**              # Upload first to establish project docs  
-2. **assets/**                # Upload all assets folder content:  
-   - bg.png  
-   - clouds.png  
-   - cat.png  
-   - donut.gif  
-   - final.gif  
-   - meow.png  
-   - shroom.gif  
-   - star.gif  
-3. **styles.css**             # Core styling  
-4. **index.html**             # Main entry point  
-5. **script.js**              # Main functionality  
-6. **pop.css**                # Popup styling  
-7. **pop.html**               # Popup structure  
-8. **pop.js**                 # Popup logic  
+📦 RetroVite  
+ ┣ 📂 assets/                # Media & graphics  
+ ┃ ┣ 📄 bg.png  
+ ┃ ┣ 📄 clouds.png  
+ ┃ ┣ 📄 cat.png  
+ ┃ ┣ 📄 donut.gif  
+ ┃ ┣ 📄 final.gif  
+ ┃ ┣ 📄 meow.png  
+ ┃ ┣ 📄 shroom.gif  
+ ┃ ┗ 📄 star.gif  
+ ┣ 📄 index.html              # Main entry point  
+ ┣ 📄 styles.css              # Core styling  
+ ┣ 📄 script.js               # Main functionality  
+ ┣ 📄 pop.html                # Popup structure  
+ ┣ 📄 pop.css                 # Popup styling  
+ ┣ 📄 pop.js                  # Popup logic  
+ ┗ 📄 README.md               # Project documentation  
 
 ---  
 
